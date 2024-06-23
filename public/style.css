@@ -1,0 +1,235 @@
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+
+body{
+
+min-height: 100vh;
+background: url('wallpaper/bg.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.logo{
+
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+
+
+}
+.header{
+ display: flex;
+ align-items: center;
+ padding: 8px;
+ backdrop-filter: blur(5px);
+ position:fixed;
+ top: 0;
+ left:0;
+ right: 0;
+ z-index: 99;
+ box-shadow: 0 0 10px;
+
+}
+.title{
+  display:inline-block;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+ 
+  
+  
+}
+.header  a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-top: -20px;
+}
+
+.holalogo{
+display:flex;
+width:130px;
+margin-left: 60px;
+margin-top: 15px;
+
+
+}
+nav{
+  flex:1;
+  text-align: right;
+
+}
+nav ul{
+  display: inline-block ;
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 50PX;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+ 
+}
+
+.wrapper{
+  position: static;
+  margin: 5% auto;
+  background: transparent;
+  width: 800px;
+  height: 600px;
+  color:rgb(20, 21, 21);
+  border-radius: 15px;
+  padding: 50 40;
+  border: 1px solid rgb(235, 239, 243);
+  padding-top: 30px;
+  backdrop-filter: blur(5px);
+
+  
+}       
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 20px;
+  
+
+}
+.wrapper .input-box{
+  position: relative;
+  float:inline-start;
+  width: 300px;
+  height: 55px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-right: 30PX;
+  margin-left: 55px;
+ 
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;  
+  border:2px solid rgb(11, 11, 11);
+  border-radius: 40px;
+  font-size: medium;
+  padding-left: 50px;
+ 
+
+
+}
+.input-box input::placeholder{
+
+  color: rgb(11, 11, 11);
+  text-align:left;
+  font-weight:400
+
+  
+
+}
+.icon{
+
+  position: absolute;
+  margin-top: 10px;
+  width: 30px;
+  right:10px
+  
+}
+.wrapper .remember-forgot{
+
+display: flex;
+justify-content: space-around;
+padding-left: 55px;
+padding-right: 55px;
+padding-bottom: 20px;
+font-weight:200;
+
+
+}
+.remember-forgot label input{
+
+  accent-color: rgb(230, 223, 223);
+  margin-right: 3PX;
+  
+
+}
+.remember-forgot a{
+
+  color:aliceblue;
+  text-decoration: none;
+
+  
+}
+
+.remember-forgot a:hover{
+  color: red;
+  text-decoration: underline;
+
+}
+.wrapper .submit-button{
+  width: 270px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0 0 10px;
+  outline: none;
+  margin-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-size: medium ;
+  background-color:aliceblue;
+  transition: background-color 0.5s ,color 0.15s;
+}
+.submit-button:hover{
+  opacity: 0.8;
+  background-color: red;
+  color:antiquewhite
+  
+  
+
+
+}
+
+.wrapper .register-link{
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 90px;
+  padding-top: 50px;
+
+
+}
+.register-link p a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.register-link p a:hover{
+ text-decoration: underline;
+ color: red;
+}
+
+.register{
+  padding: 20px;
+  display: block;
+  float:inline-start;
+  margin-top: -10px;
+  margin-left: 180px;
+
+}
+.login{
+  padding: 20px;
+  display: block;
+  align-items: center;
+  margin-top: 300px;
+  margin-left: 280px;
+
+}
